@@ -11,7 +11,7 @@ This project is focused on creating an advanced approach for the accurate segmen
 | Name              | Role                | Contact Information |
 |-------------------|---------------------|---------------------|
 | Hasaan Maqsood    | Project Lead        | [Email](Hasaan.Maqsood@skoltech.ru) |
-| Inna Larina       | Software Engineer  | [Email](inna.larina@skoltech.ru) |
+| Inna Larina       | CV Engineer         | [Email](inna.larina@skoltech.ru) |
 | Iana Kulichenko   | Data Scientist      | [Email](Iana.Kulichenko@skoltech.ru) |
 
 ## Table of Contents
