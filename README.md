@@ -32,8 +32,8 @@ Provide step-by-step instructions on how to install the project.
 ## Installation
 
 ```bash
-git clone https://your.project.repo.link.here
-cd your-project-directory
+git clone [https://your.project.repo.link.here](https://github.com/Hasaanmaqsood/Skoltech_Machine_learning-2024.git)
+cd Skoltech_Machine_learning-2024
 pip install -r requirements.txt
 
 ```
