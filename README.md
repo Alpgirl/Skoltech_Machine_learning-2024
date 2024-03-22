@@ -1,5 +1,5 @@
 # Skoltech Machine Learning Course Project 2024
-
+![Mask](https://github.com/Hasaanmaqsood/Skoltech_Machine_learning-2024/assets/75485789/e6444cab-969b-482f-853d-e04510717cfe)
 Welcome to our Machine Learning course project repository! This project is part of the 2024 curriculum at Skoltech, aimed at exploring innovative solutions and advancing the field of machine learning.
 
 ## Project Overview
@@ -71,6 +71,8 @@ uploaded = files.upload()
 !kaggle datasets download -d mateuszbuda/lgg-mri-segmentation -p /content
 !unzip /content/lgg-mri-segmentation.zip -d /content/dataset
 ```
+
+
 ## How to download Classification Dataset
 ```bash
 !git clone https://github.com/SartajBhuvaji/Brain-Tumor-Classification-DataSet.git
