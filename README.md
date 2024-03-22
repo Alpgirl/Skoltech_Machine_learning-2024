@@ -28,12 +28,15 @@ This project is focused on creating an advanced approach for the accurate segmen
 
 Provide step-by-step instructions on how to install the project.
 
+
 ## Installation
+
+```bash
 git clone https://your.project.repo.link.here
 cd your-project-directory
 pip install -r requirements.txt
 
-
+```
 ## Team Member
 
 <a href="https://github.com/Hasaanmaqsood/Skoltech_Machine_learning-2024/graphs/contributors">
