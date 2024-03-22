@@ -36,8 +36,10 @@ git clone [https://your.project.repo.link.here](https://github.com/Hasaanmaqsood
 cd Skoltech_Machine_learning-2024
 pip install -r requirements.txt
 
-
-## Here How you can download Segmentation Dataset 
+```
+# Datasets 
+## Here How you can download Segmentation Dataset
+```bash
 # Downloading dataset from kaggle
 #upload kaggle json
 from google.colab import files
