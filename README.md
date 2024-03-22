@@ -71,6 +71,31 @@ uploaded = files.upload()
 !kaggle datasets download -d mateuszbuda/lgg-mri-segmentation -p /content
 !unzip /content/lgg-mri-segmentation.zip -d /content/dataset
 ```
+
+
+# Datasets 
+## Here How you can download Segmentation Dataset
+```bash
+ENCODER = 'efficientnet-b5'
+ENCODER_WEIGHTS = "imagenet"
+CLASSES = ['Health_brain', 'Tumor']  # Binary classification (background and tumor)
+ACTIVATION = 'sigmoid'  # sigmoid activation for binary classification
+
+aux_params = dict(
+    pooling='avg',
+    dropout=0.3,
+    activation=ACTIVATION,
+    classes=1,
+)
+
+common_params = {
+    'encoder_name': ENCODER,
+    'encoder_weights': ENCODER_WEIGHTS,
+    'classes': 1,
+    'activation': ACTIVATION,
+    'aux_params': aux_params
+}
+```
 ## Team Member
 
 <a href="https://github.com/Hasaanmaqsood/Skoltech_Machine_learning-2024/graphs/contributors">
