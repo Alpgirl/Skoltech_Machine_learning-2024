@@ -74,7 +74,7 @@ uploaded = files.upload()
 
 
 ## How to load models
-Firstly download .pth file from Google Drive (see instuctions Segmentation/Instructions to download weights.txt). Then write code: model = smp.DeepLabV3Plus(**common_params) model_path = '/content/DeepLabV3+_best.pth' model.load_state_dict(torch.load(model_path, map_location=DEVICE)) model = model.to(DEVICE)
+Firstly download .pth file from Google Drive (see instuctions Segmentation/Instructions to download weights.txt). Then write code:
 ```bash
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 ENCODER = 'efficientnet-b5'
