@@ -1,5 +1,8 @@
 # Skoltech Machine Learning Course Project 2024
+<p float="left">
 <img src="https://github.com/Hasaanmaqsood/Skoltech_Machine_learning-2024/assets/75485789/e6444cab-969b-482f-853d-e04510717cfe" width="250" alt="Mask">
+<img src="![IMAGE 2024-03-22 22:35:31](https://github.com/Hasaanmaqsood/Skoltech_Machine_learning-2024/assets/49607311/c15f0707-03fb-4053-a49b-0e81dc2db9bb)" width="250" alt="Mask">
+</p>
 
 Welcome to our Machine Learning course project repository! This project is part of the 2024 curriculum at Skoltech, aimed at exploring innovative solutions and advancing the field of machine learning.
 
