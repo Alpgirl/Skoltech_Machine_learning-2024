@@ -36,6 +36,19 @@ git clone [https://your.project.repo.link.here](https://github.com/Hasaanmaqsood
 cd Skoltech_Machine_learning-2024
 pip install -r requirements.txt
 
+
+## Here How you can download Segmentation Dataset 
+# Downloading dataset from kaggle
+#upload kaggle json
+from google.colab import files
+uploaded = files.upload()
+
+!mkdir -p ~/.kaggle
+!cp kaggle.json ~/.kaggle/
+!chmod 600 ~/.kaggle/kaggle.json
+
+!kaggle datasets download -d mateuszbuda/lgg-mri-segmentation -p /content
+!unzip /content/lgg-mri-segmentation.zip -d /content/dataset
 ```
 ## Team Member
 
