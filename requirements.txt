@@ -7,3 +7,4 @@ imutils
 tqdm
 seaborn
 matplotlib
+segmentation-models-pytorch==0.3.3
