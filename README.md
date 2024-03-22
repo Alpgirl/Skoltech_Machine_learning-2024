@@ -21,7 +21,7 @@ This project is focused on creating an advanced approach for the accurate segmen
 - [Installation](#installation)
 - [Usage](#usage)
 - [Documentation](#documentation)
-- [Contributing](#TeamMember)
+- [Contributing](#Team-Member)
 - [License](#license)
 
 
