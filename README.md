@@ -34,18 +34,16 @@ This repository supports classification and segmentation machine learning tasks,
 
 ```bash
 ├── classification
-│ ├── classification.ipynb          # Jupyter notebook with the model training code for classification.
-│ └── classification dataset         # Directory containing the dataset for classification tasks.
-│    ├── Training                    # Training dataset for the classification model.
-│    └── Testing                     # Testing dataset for the classification model.
+    │ ├── classification.ipynb                           # Jupyter notebook with the model training code for classification.                      
 ├── segmentation
-│ ├── segmentation.ipynb            # Jupyter notebook with the model training code for segmentation.
-│ ├── segm_model.pth                # Saved model weights for the segmentation model.
-│ └── segmentation dataset          # Directory containing the dataset for segmentation tasks.
-├── Presentation                     # Directory or file with presentation materials.
-├── Report                           # Directory or file with detailed project report.
-├── Readme.md                        # Overview and guide for using this repository.
-└── requirements.txt                 # Required libraries to run the notebooks.
+│ ├── segmentation.ipynb                                 # Jupyter notebook with the model training code for segmentation.
+│ ├── Instructions to download weights.txt               # Instructions to download weights
+│ └── Link to download segmentation dataset.txt          # Directory containing the dataset for segmentation tasks.
+│ └── kaggle.json                                        # File for downloading segmentation dataset from kaggle in segmentation.ipynb
+├── Presentation                                         # File with presentation materials.
+├── Report                                               # File with detailed project report.
+├── Readme.md                                            # Overview and guide for using this repository.
+└── requirements.txt                 #                   # Required libraries to run the notebooks.
 
 ```
 Provide step-by-step instructions on how to install the project.
