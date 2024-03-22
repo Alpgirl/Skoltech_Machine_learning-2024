@@ -57,7 +57,7 @@ pip install -r requirements.txt
 
 ```
 # Datasets 
-## Here How you can download Segmentation Dataset
+## How to download Segmentation Dataset
 ```bash
 # Downloading dataset from kaggle
 #upload kaggle json
@@ -71,7 +71,7 @@ uploaded = files.upload()
 !kaggle datasets download -d mateuszbuda/lgg-mri-segmentation -p /content
 !unzip /content/lgg-mri-segmentation.zip -d /content/dataset
 ```
-## Here How you can download Classification Dataset
+## How to download Classification Dataset
 ```bash
 !git clone https://github.com/SartajBhuvaji/Brain-Tumor-Classification-DataSet.git
 ```
@@ -103,6 +103,49 @@ model_path = '/content/DeepLabV3+_best.pth'
 model.load_state_dict(torch.load(model_path, map_location=DEVICE))
 model = model.to(DEVICE)
 ```
+## How to make segmentation prediction for your image
+```bash
+DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+MEAN = np.array([0.485, 0.456, 0.406])
+STD = np.array([0.229, 0.224, 0.225])
+
+transform = transforms.Compose([
+    transforms.ToTensor(),
+    transforms.Normalize(mean=MEAN, std=STD)
+])
+
+img_path = "/content/glioma_tumor.jpg"
+img = Image.open(img_path).convert('RGB')
+input_image = transform(img)
+input_image = input_image.unsqueeze(0).to(DEVICE)  # Add batch dimension and send to device
+
+model.eval()
+with torch.no_grad():
+    output = model(input_image)
+    if isinstance(output, tuple):
+        output = output[0]
+    prediction = torch.sigmoid(output)
+    predicted_mask = (prediction > 0.55).float()
+
+
+plt.figure(figsize=(10, 5))
+
+# Original Image
+plt.subplot(1, 2, 1)
+plt.imshow(img)
+plt.title('Original Image')
+plt.axis('off')
+
+# Predicted Mask
+plt.subplot(1, 2, 2)
+predicted_mask_np = predicted_mask.cpu().squeeze().numpy()
+plt.imshow(predicted_mask_np, cmap='gray', vmin=0, vmax=1)
+plt.title('Predicted Mask')
+plt.axis('off')
+
+plt.show()
+```
+
 ## Team Member
 
 <a href="https://github.com/Hasaanmaqsood/Skoltech_Machine_learning-2024/graphs/contributors">
