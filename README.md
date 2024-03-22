@@ -39,7 +39,7 @@ This repository supports classification and segmentation machine learning tasks,
 │ ├── Segmentation_Brain_tumor.ipynb            # Jupyter notebook with the model training code for segmentation.
 │ ├── Instructions to download weights.txt # the best saved segmentation model
 ├── Presentation                     # Directory or file with presentation materials.
-| |── MRI segmentation and classification.pdf
+│ ├── MRI segmentation and classification.pdf
 ├── Report                           # Directory or file with detailed project report.
 ├── Readme.md                        # Overview and guide for using this repository.
 └── requirements.txt                 # Required libraries to run the notebooks.
