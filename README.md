@@ -71,8 +71,10 @@ uploaded = files.upload()
 !kaggle datasets download -d mateuszbuda/lgg-mri-segmentation -p /content
 !unzip /content/lgg-mri-segmentation.zip -d /content/dataset
 ```
-
-
+## Here How you can download Classification Dataset
+```bash
+!git clone https://github.com/SartajBhuvaji/Brain-Tumor-Classification-DataSet.git
+```
 ## How to load models
 Firstly download .pth file from Google Drive (see instuctions Segmentation/Instructions to download weights.txt). Then write code:
 ```bash
