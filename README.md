@@ -55,7 +55,7 @@ uploaded = files.upload()
 ## Team Member
 
 <a href="https://github.com/Hasaanmaqsood/Skoltech_Machine_learning-2024/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Hasaanmaqsood/Skoltech_Machine_learning-2024" />
+  <img src="https://contrib.rocks/image?repo=Hasaanmaqsood/Skoltech_Machine_learning-2024"/>
 </a>
 
 
