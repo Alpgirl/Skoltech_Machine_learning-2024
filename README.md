@@ -3,9 +3,19 @@
 
 Welcome to our Machine Learning course project repository! This project is part of the 2024 curriculum at Skoltech, aimed at exploring innovative solutions and advancing the field of machine learning.
 
+## Table of Contents
+
+- [Project Overview](#project-overview)
+- [Team Members](#team-members)
+- [Project File Structure](#project-file-structure)
+- [Installation](#installation)
+- [Code Snippets](#code-snippets)
+- [Contributing](#Team-Member)
+
 ## Project Overview
 
-This project is focused on creating an advanced approach for the accurate segmentation and classification of brain tumors, utilizing a dataset called “Brain MRI segmentation” for segmentation task and then train classification on  "Brain Tumor Classification" dataset that are filled with magnetic resonance (MR) images of the brain. Our goal is to accurately segment and classify various types of tumors through the application of various deep learning models, including CNN (Convolutional Neural Networks), U-Net, ResNet, and others. This endeavor seeks to leverage the capabilities of these models to improve the precision and efficiency of brain tumor diagnosis.
+We introduce a comparative analysis of Segmentation and Classification approaches. Firstly, we train segmentation models on the LGG segmenetation dataset and classifiers on the classification dataset consisting of MRI images. Secondly, we predict segmentation masks for the classification dataset using selected segmentation model and overlay them with original MRI scans. Thirdly, we train classifiers again on the masked classification dataset. \
+Our **hypothesis** states that by the segmentation supplement we **enhance** classifiers performance in terms of the following metrics: accuracy, precision, recall and f1 score.
 
 ## Team Members
 
@@ -15,16 +25,6 @@ This project is focused on creating an advanced approach for the accurate segmen
 | Inna Larina       | CV Engineer         | [Email](inna.larina@skoltech.ru) |
 | Iana Kulichenko   | Data Scientist      | [Email](Iana.Kulichenko@skoltech.ru) |
 
-## Table of Contents
-
-- [Project Overview](#project-overview)
-- [Team Members](#team-members)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Documentation](#documentation)
-- [Contributing](#Team-Member)
-- [License](#license)
-
 
 # Project File Structure
 
@@ -33,21 +33,34 @@ This repository supports classification and segmentation machine learning tasks,
 ## Repository Structure
 
 ```bash
-├── classification
-│ ├── classification.ipynb          # Jupyter notebook with the model training code for classification.
-│ └── classification dataset         # Directory containing the dataset for classification tasks.
-│    ├── Training                    # Training dataset for the classification model.
-│    └── Testing                     # Testing dataset for the classification model.
-├── segmentation
-│ ├── segmentation.ipynb            # Jupyter notebook with the model training code for segmentation.
-│ ├── segm_model.pth                # Saved model weights for the segmentation model.
-│ └── segmentation dataset          # Directory containing the dataset for segmentation tasks.
+├── Classification
+│ ├── MRI_Tumor_Classification.ipynb          # Jupyter notebook with the model training code for classification.
+├── Segmentation
+│ ├── Segmentation_Brain_tumor.ipynb            # Jupyter notebook with the model training code for segmentation.
+│ ├── Instructions to download weights.txt # the best saved segmentation model
 ├── Presentation                     # Directory or file with presentation materials.
+| |── MRI segmentation and classification.pdf
 ├── Report                           # Directory or file with detailed project report.
 ├── Readme.md                        # Overview and guide for using this repository.
 └── requirements.txt                 # Required libraries to run the notebooks.
 
 ```
+
+## Pipeline
+
+Install requirements from ```requirements.txt```.
+
+  To **train segmentation models**:
+  - Launch training of segmentation models located in ```Segmentation/Segmentation_Brain_tumor.ipynb```
+
+  To **train classification models**:
+  - Launch training of classification models located in ```Classification/MRI_Tumor_Classification.ipynb```
+
+  To **predict segmentation masks** and use them with **classifier**:
+  - Download the best saved model using instructions from ```Segmentation/Instructions to download weights.txt``` and locate it inside ```Segmentation``` folder.
+  - Launch the corresponding section in the notebook located in ```Classification/MRI_Tumor_Classification.ipynb``` and predict masks.
+  - Optional: Launch training of classification models.
+
 Provide step-by-step instructions on how to install the project.
 ## Installation
 
@@ -57,7 +70,7 @@ cd Skoltech_Machine_learning-2024
 pip install -r requirements.txt
 
 ```
-# Datasets 
+# Code Snippets 
 ## How to download Segmentation Dataset
 ```bash
 # Downloading dataset from kaggle
