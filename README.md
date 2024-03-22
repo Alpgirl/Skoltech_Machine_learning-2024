@@ -25,10 +25,29 @@ This project is focused on creating an advanced approach for the accurate segmen
 - [License](#license)
 
 
+# Project File Structure
 
+This repository supports classification and segmentation machine learning tasks, alongside providing presentation and report documentation. Below is a detailed overview of the repository's structure.
+
+## Repository Structure
+
+```bash
+├── classification
+│ ├── classification.ipynb          # Jupyter notebook with the model training code for classification.
+│ └── classification dataset         # Directory containing the dataset for classification tasks.
+│    ├── Training                    # Training dataset for the classification model.
+│    └── Testing                     # Testing dataset for the classification model.
+├── segmentation
+│ ├── segmentation.ipynb            # Jupyter notebook with the model training code for segmentation.
+│ ├── segm_model.pth                # Saved model weights for the segmentation model.
+│ └── segmentation dataset          # Directory containing the dataset for segmentation tasks.
+├── Presentation                     # Directory or file with presentation materials.
+├── Report                           # Directory or file with detailed project report.
+├── Readme.md                        # Overview and guide for using this repository.
+└── requirements.txt                 # Required libraries to run the notebooks.
+
+```
 Provide step-by-step instructions on how to install the project.
-
-
 ## Installation
 
 ```bash
