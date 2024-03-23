@@ -14,7 +14,6 @@ Welcome to our Machine Learning course project repository! This project is part 
 - [Project File Structure](#project-file-structure)
 - [Installation](#installation)
 - [Code Snippets](#code-snippets)
-- [Contributing](#Team-Member)
 
 ## Project Overview
 
@@ -38,15 +37,17 @@ This repository supports classification and segmentation machine learning tasks,
 
 ```bash
 ├── Classification
-│ ├── MRI_Tumor_Classification.ipynb          # Jupyter notebook with the model training code for classification.
+│ ├── MRI_Tumor_Classification.ipynb              # Jupyter notebook with the model training code for classification
 ├── Segmentation
-│ ├── Segmentation_Brain_tumor.ipynb            # Jupyter notebook with the model training code for segmentation.
-│ ├── Instructions to download weights.txt # the best saved segmentation model
-├── Presentation                     # Directory or file with presentation materials.
+│ ├── Segmentation_Brain_tumor.ipynb              # Jupyter notebook with the model training code for segmentation
+│ ├── Instructions to download weights.txt        # the best weights of segmentation models
+│ ├── Link to download segmentation dataset.txt   # link to download segmentation dataset
+│ ├── kaggle.json                                 # file to download segmentation dataset from Segmentation_Brain_tumor.ipynb
+├── Presentation                                  # Directory with presentation materials
 │ ├── MRI segmentation and classification.pdf
-├── Report                           # Directory or file with detailed project report.
-├── Readme.md                        # Overview and guide for using this repository.
-└── requirements.txt                 # Required libraries to run the notebooks.
+├── Report                                        # file with detailed project report
+├── Readme.md                                     # Overview and guide for using this repository
+└── requirements.txt                              # Required libraries to run the notebooks
 
 ```
 
@@ -166,11 +167,6 @@ plt.axis('off')
 plt.show()
 ```
 
-## Team Member
-
-<a href="https://github.com/Hasaanmaqsood/Skoltech_Machine_learning-2024/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Hasaanmaqsood/Skoltech_Machine_learning-2024"/>
-</a>
 
 
 
