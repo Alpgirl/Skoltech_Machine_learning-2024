@@ -1,8 +1,8 @@
 # Skoltech Machine Learning Course Project 2024
 <p float="center">
   <img src="https://github.com/Hasaanmaqsood/Skoltech_Machine_learning-2024/assets/75485789/e6444cab-969b-482f-853d-e04510717cfe" height="200" alt="Mask">
-  <img src="https://private-user-images.githubusercontent.com/49607311/316148391-c15f0707-03fb-4053-a49b-0e81dc2db9bb.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTExMzY0ODUsIm5iZiI6MTcxMTEzNjE4NSwicGF0aCI6Ii80OTYwNzMxMS8zMTYxNDgzOTEtYzE1ZjA3MDctMDNmYi00MDUzLWE0OWItMGU4MWRjMmRiOWJiLmpwZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAzMjIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMzIyVDE5MzYyNVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTdmNmMzMzJkMTY4ZjBlNWViMjhjNzdhMzdjM2M1Y2NhNjgxM2E0OTNlNzI4ZWY1YTZlMTIyNjI4ODBlMDI0NGQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.a960oLMVGCEgft7SiJcWf5Rdi38bKy5XI_iElCYvYrw" height="200" alt="Mask">
-  <img src="https://private-user-images.githubusercontent.com/49607311/316148942-c81b3250-8282-42d8-8d5c-8f2aaeb2489e.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTExMzY1ODcsIm5iZiI6MTcxMTEzNjI4NywicGF0aCI6Ii80OTYwNzMxMS8zMTYxNDg5NDItYzgxYjMyNTAtODI4Mi00MmQ4LThkNWMtOGYyYWFlYjI0ODllLmpwZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAzMjIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMzIyVDE5MzgwN1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTVkMzJmY2RiNGQwMjI2OGM3YTBiMzk3NDFmYzJiZmNhMDQxNjdhZGIzYTYyMjk5MmRhYjNiYjcwNWEyZjg4YmImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.FkJ0EXIJlGCuOh9hVlW95qEvy-tB36Y9zhydEbwCyXc" height="200" alt="Mask">
+  <img src="https://github.com/Hasaanmaqsood/Skoltech_Machine_learning-2024/assets/68153923/e03cfa66-e8db-4ddd-93b7-02b3a215e946" height="200" alt="Mask">
+  <img src="https://github.com/Hasaanmaqsood/Skoltech_Machine_learning-2024/assets/68153923/2577bfdb-048f-4076-b72e-7a496b0a775d" height="200" alt="Mask">
 </p>
 
 Welcome to our Machine Learning course project repository! This project is part of the 2024 curriculum at Skoltech, aimed at exploring innovative solutions and advancing the field of machine learning.
@@ -40,12 +40,12 @@ This repository supports classification and segmentation machine learning tasks,
 │ ├── MRI_Tumor_Classification.ipynb              # Jupyter notebook with the model training code for classification
 ├── Segmentation
 │ ├── Segmentation_Brain_tumor.ipynb              # Jupyter notebook with the model training code for segmentation
-│ ├── Instructions to download weights.txt        # the best weights of segmentation models
-│ ├── Link to download segmentation dataset.txt   # link to download segmentation dataset
-│ ├── kaggle.json                                 # file to download segmentation dataset from Segmentation_Brain_tumor.ipynb
+│ ├── Instructions to download weights.txt        # The best weights of segmentation models
+│ ├── Link to download segmentation dataset.txt   # Link to download segmentation dataset
+│ ├── kaggle.json                                 # File to download segmentation dataset from Segmentation_Brain_tumor.ipynb
 ├── Presentation                                  # Directory with presentation materials
 │ ├── MRI segmentation and classification.pdf
-├── Report                                        # file with detailed project report
+│ ├── Report                                      # File with detailed project report
 ├── Readme.md                                     # Overview and guide for using this repository
 └── requirements.txt                              # Required libraries to run the notebooks
 
